@@ -17,7 +17,6 @@ public class Application {
 		} catch(Exception e) {
 			
 			System.out.println("db client not created : " + e.getMessage());
-			System.out.println(e.fillInStackTrace());
 			
 			return;
 		}
@@ -28,7 +27,6 @@ public class Application {
 		} catch(Exception e) {
 			
 			System.out.println("redis client not created : " + e.getMessage());
-			System.out.println(e.fillInStackTrace());
 			
 			return;
 		}
